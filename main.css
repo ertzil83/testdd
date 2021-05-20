@@ -11,14 +11,18 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   
   .objects {
     display: inline-block;
-    background-color: #FFF3CC;
-    border: #DFBC6A 1px solid;
+    background-color: transparent;
+ 
     width: 50px;
-    height: 50px;
+    height: 80px;
     margin: 10px;
+    background-repeat:no-repeat;
+    background-size:contain;
     padding: 8px;
     font-size: 18px;
     text-align: center;
-    box-shadow: 2px 2px 2px #999;
+
     cursor: move;
+    background-image: url("https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-21/ratings-collective/common/news/player-items/highest-potential/ayarzabal-fifa-21-cm-potential.png.adapt.crop16x9.652w.png");
+
   }
